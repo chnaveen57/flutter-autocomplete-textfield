@@ -239,6 +239,7 @@ class AutoCompleteTextFieldState<T> extends State<AutoCompleteTextField> {
 
     setState(() {
       textField = new TextField(
+          autofocus:true,
         inputFormatters: this.inputFormatters,
         textCapitalization: this.textCapitalization,
         decoration: this.decoration,
