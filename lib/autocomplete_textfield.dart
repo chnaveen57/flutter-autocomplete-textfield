@@ -165,6 +165,8 @@ class AutoCompleteTextFieldState<T> extends State<AutoCompleteTextField> {
       this.controller,
       this.focusNode) {
     textField = new TextField(
+        
+          autofocus:true,
       inputFormatters: inputFormatters,
       textCapitalization: textCapitalization,
       decoration: decoration,
